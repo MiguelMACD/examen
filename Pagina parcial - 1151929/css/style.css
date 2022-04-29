@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+
+  font-family: calibri;	
+  padding: 0px 20px 0;
+
+}
+
+.derecha0{
+padding: 60px 20px 0;
+float: right;
+left: 83%;
+position: relative;
+width: 300px;
+height: 200px;
+background: white;
+margin-bottom: 20px;
+
+}
+
+
+.derecha1{
+padding: 15px 20px 0;
+float: right;
+left: 83%;
+position: relative;
+width: 300px;
+height: 400px;
+background: #9fd5d1;	
+margin-bottom: 20px;
+border-style: dotted;
+}
+
+.derecha2{
+padding: 15px 20px 0;
+float: right;
+left: 83%;
+position: relative;
+width: 300px;
+height: 400px;
+background: #edaa7c;	
+margin-bottom: 20px;
+border-style: dotted;
+}
+
+.nav{
+
+   display: flex;
+   justify-content: space-between;
+   font-size: 25px;
+   height: 200px;
+   width: 87%;
+   background: white;
+   position: sticky;
+   top: 0;
+}
+
+.nav-link{
+
+  text-decoration: none;
+
+}
+
+.nav-menu{
+
+  display: flex;
+  margin-right: 40px;
+  list-style: none; 
+   
+}
+
+.nav-menu-item{
+
+  font-size: 20px;
+  margin: 0 10px;
+  line-height: 330px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+.nav-menu-link{
+
+  padding: 4px 4px;
+  border-radius: 4px;	
+}
+
+.nav-menu-link:hover{
+
+  background-color: #ADD8E6;
+  transition: 0.5s;
+
+}
+
+.ogt{
+
+ 
+
+}
+
+.Periodico{
+
+	font-size: 42px;
+}
+
+h2{
+  color: #4169E1;	
+}
+
+h3{
+
+padding-right: 26%;
+
+}
+
+.rectangulo{
+background: white;
+height: 250px;
+width: 1500px;	
+border-style: solid;
+display: table-cell;
+vertical-align: middle;
+}
+
+.carita{
+text-align: center;
+}
+
+
+input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 1500px;
+  background: #417dc1;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 2px solid #4040ff;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  background: #4040ff;
+  color: #fff;
+}
+
+
+footer{
+
+  display: flex; 	
+  justify-content: space-around;
+  padding-right: 20%;
+  
+}
+
+footer .circulo1{
+background-color: #2ebef3;
+border: 2px solid #4040ff;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+
+}
+
+footer .circulo2{
+background-color: #2ebef3;
+border: 2px solid #4040ff;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+left: 400px;
+}
+
+footer .circulo3{
+background-color: #2ebef3;
+border: 2px solid #4040ff;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+left: 800px;
+}
